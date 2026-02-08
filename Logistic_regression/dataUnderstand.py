@@ -21,7 +21,7 @@ y = np.vstack((y0, y1))
 # Normalize the 2D features
 mean_X = np.mean(X, axis=0)
 std_X = np.std(X, axis=0)
-X_normalized = (X - mean_X) / std_X
+X_normalized = (X - mean_X) / std_Xq    
 
 # Reshape y to be 1D for consistent calculations
 y = y.flatten()
